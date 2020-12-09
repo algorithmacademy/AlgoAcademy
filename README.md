@@ -170,3 +170,17 @@ One last thing, the source code here is in javascript tho I had Java and Python 
 in my mentorship, everything worked fine.  I just had to provide the expected results, rather
 than run automated tests to test for it.  As this is an open source repo, contributions
 are welcome and I will provide some of the Python answers that my apprentices have provided.
+
+<br />
+
+I wanted the material to be open source from the beginning but used my mentoring sessions from
+algoacad.me and classes from Bootcamped to calibrate the quality.  My mentoring is not about 
+algorithms, anyway.  As someone who has overseen 200 person developer teams, CEO'd and CTO'd, 
+I have a knack for what we're looking for when hiring.  When I mentor its more of a troubleshooting
+exercise to figure out where in the process from writing the resume, to salary negotiation, the
+problem is and fix it.  Everyong grinded LeetCode but some still had struggles there or with
+systems design.  This is the component that focused on algorithms.
+
+I will continue to mentor people as I feel moved to.
+
+[My LinkedIn](https://linkedin.com/in/bullockshawn)
