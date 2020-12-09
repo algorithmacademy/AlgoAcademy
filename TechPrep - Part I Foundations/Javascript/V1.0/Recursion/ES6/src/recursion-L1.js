@@ -247,8 +247,8 @@ let L1 = class {
   //  [1,2,3,5,4,6]   => false
   //
   //
-  // What is the Time Complexity of your solution?  : O(n)
-  // What is the Space Complexity of your solution? : O(n)
+  // What is the Time Complexity of your solution?  :
+  // What is the Space Complexity of your solution? :
   //
   isPalindrome(input) {
     // Your code here...
@@ -267,8 +267,8 @@ let L1 = class {
   //  [1,2,[3,4,[5,6,7]]] => [1,2,3,4,5,6,7]
   //
   //
-  // What is the Time Complexity of your solution?  : O(n)
-  // What is the Space Complexity of your solution? : O(n)
+  // What is the Time Complexity of your solution?  :
+  // What is the Space Complexity of your solution? :
   //
   flattenArray(input) {
     // Your code here...
