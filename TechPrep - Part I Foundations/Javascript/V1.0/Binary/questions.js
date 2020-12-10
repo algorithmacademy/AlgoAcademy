@@ -262,13 +262,15 @@
 // (0) Write a function to test with the the 0th bit is set
 //
 function is0thSet(value) {
-  return value & 0b01;
+  return (value & 0b01);
 }
 
-console.log(!!is0thSet(5));
+console.log(!!is0thSet(1));
+console.log(!!is0thSet(2));
 
 
-
+// (1) Write a function to determine whether 3rd and 4th bits are set:
+//
 function are3rdAnd4thBitsSet(value) {
   return (value & 0b11000) === 0b11000;
 }
@@ -348,16 +350,20 @@ console.log(getByteN(0b00000001001101010110000101110101, 3) == 0b00000001);
 //      assume 8-bits
 //
 function rotateLeft8Bit(value, n) {
-  return (value << n) | (n >> (8 - n));
+  return ((value << n) | (value >> (8 - n))) & 0xFF;
 }
-//console.log(rotateLeft8Bit(0b10011100,1) == 0b00111001);
+
+console.log(rotateLeft8Bit(0b10011100,1) == 0b00111001);
 
 
 
 // (8) Write a function to binary rotate right n number of times
 //
+function rotateRight8Bit(value, n) {
+  return ((value >> n) | (value << (8 - n))) & 0xFF;
+}
 
-
+console.log(rotateRight8Bit(0b10011100,1) == 0b01001110);
 
 
 // (9) Write a function to return the endian of the computer

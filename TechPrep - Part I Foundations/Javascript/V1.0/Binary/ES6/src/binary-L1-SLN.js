@@ -152,7 +152,7 @@ let L1 = function() {
   // What is the Space Complexity of your solution? : O(1)
   //
   this.leftRotate8Bits = (value, n) => {
-    return (value << n) | (n >> (8 - n));
+    return ((value << n) | (value >> (8 - n))) & 0xFF;
   };
 
 
@@ -163,7 +163,7 @@ let L1 = function() {
   // What is the Space Complexity of your solution? : O(1)
   //
   this.rightRotate8Bits = (value, n) => {
-    return (value >> n) | (n << (8 - n));
+    return ((value >> n) | (value << (8 - n))) & 0xFF;
   };
 
 
