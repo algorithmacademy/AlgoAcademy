@@ -7,9 +7,9 @@ were trying to figure out why.
 After end-to-end mock interviews it appeared one fundamental issue was their comfort working the 
 basic data structures (Linked Lists, Arrays, Stacks, Trees, Graphs, etc).  During interviews they 
 would spend a lot of time recalling and working out how to traverse a LinkedList rather than 
-spending time reversing it, and so on.  Many of the algorithm/toy-problem style questions assume 
-one is familiar with the data structures, to begin with.  And this seems to be true of the vast 
-majority of people I worked with and continue to work with.
+spending time reversing it, and so on.  And this seems to be true of the vast majority of people 
+I worked with and continue to work with.Many of the algorithm/toy-problem style questions assume 
+one is familiar with the data structures, to begin with.
 
 I started http://algoacad.me as a way to personally mentor people one-on-one through the interview
 process and http://bootcamped.com to mentor groups.  The process is the same, and the material is
@@ -23,8 +23,7 @@ I will continue to mentor people and use the material here.  I initially wanted 
 but wanted to test it first.
 
 I have decided to open source the _foundational exercises_ portion of the program in these files
-initially, and will work to open source the homework and mentoring part of it,  also in upcoming 
-weeks.
+initially, and will work to open source the homework and mentoring part of it soon.
 
 As I'm curating files from the private different repos, some parts might be missing.  I'll track them
 down and fix it.
@@ -44,7 +43,7 @@ http://algoacad.me .
 At first I'll provide Part 1 and once I've cleaned up the Part 2 material I'll publish
 it also.
 
-When I mentor people, I typically follow a schedule that looks like the following (for Part 1):
+When I mentor people, I typically follow a schedule that looks resembles the following (for Part 1):
 
 ---
 ```
