@@ -1,6 +1,6 @@
 # Welcome to Algorithm Academy
 
-It started before the summer of 2016.  A couple friends were experience difficulty interviewing and
+It started before the summer of 2016.  A couple friends were experiencing difficulty interviewing and
 one was soon to interview for a senior dev role at Uber, and another as a developer at facebook and 
 were trying to figure out why.
 
