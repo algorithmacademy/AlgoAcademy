@@ -288,7 +288,6 @@ In this case, we didn't even bother to return a value.  We just modified a closu
 
  * Multiple base cases
  * Available memory (too many calls can lead to out or memory errors)
- * gg
 
 ###### NOTES
 
@@ -306,8 +305,24 @@ Open [recursion-L0.js](ES6/src/recursion-L0.js) and follow the prompts below to 
 
 ###### Objective
 
- * Practice the recursion prompts.
- 
+Practice the following exercises.  You can try this with the Helper Function technique in the beginning if it
+makes things easier.  After doing all these, and Level 1, you can try again using Pure Recursion.
+
+1. Write a recursive function to count and log 1 to N.
+2. Write a recursive function to count and log N to 1.
+3. Write a recursive function to count and log X to Y inclusive.  Assume X is always less than Y.
+4. Write a recursive function to calculate the length of an array.  Return the value.
+5. Write a recursive function to calculate the sum of an array
+6. Write a recursive function to calculate the average of the values in an array
+7. Write a recursive function to return the sum of all evens in an array
+8. Write a recursive function to compute the number of digits in an integer
+9. Write a recursive function to return whether the integer contains the number K
+10. Write a recursive function to calculate the power of a number (exponent, number)
+
+###### BONUS
+
+* After solving these using the Helper Function technique, and after solving L1,  try
+ again using the Pure Recursion technique.
 
 ###### Critical Whiteboard Skills
 
