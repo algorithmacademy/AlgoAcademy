@@ -4,13 +4,6 @@ It started before the summer of 2016.  A couple friends were experiencing diffic
 one was soon to interview for a senior dev role at Uber, and another as a developer at facebook and 
 were trying to figure out why.
 
-After end-to-end mock interviews it appeared one fundamental issue was their comfort working the 
-basic data structures (Linked Lists, Arrays, Stacks, Trees, Graphs, etc).  During interviews they 
-would spend a lot of time recalling and working out how to traverse a LinkedList rather than 
-spending time reversing it, and so on.  And this seems to be true of the vast majority of people 
-I worked with and continue to work with.Many of the algorithm/toy-problem style questions assume 
-one is familiar with the data structures, to begin with.
-
 I started http://algoacad.me as a way to personally mentor people one-on-one through the interview
 process and http://bootcamped.com to mentor groups.  The process is the same, and the material is
 the same.  The Data Structures portion contained in this repo is how I walk people through problem
@@ -22,26 +15,7 @@ used to.
 I will continue to mentor people and use the material here.  I initially wanted it to be open source
 but wanted to test it first.
 
-I have decided to open source the _foundational exercises_ portion of the program in these files
-initially, and will work to open source the homework and mentoring part of it soon.
-
-As I'm curating files from the private different repos, some parts might be missing.  I'll track them
-down and fix it.
-
-The Algorithms portion of the program is broken into two parts:
-
-1) **Foundations of Data Structures**.  This covers topics like arrays, bit manipulation,
- recursion, graphs, searching, sorting, etc.
-   
-2) **Algorithm Techniques**.  This covers algorithm techniques like brute force,
- dynamic programming, backtracking, divide and conquer, etc.
-   
-This was designed to be paired with mentoring, not necessary as a self-learning machanism.  Once I 
-complete pushing my material here, I will then update a new self-paced learning system to my website
-http://algoacad.me .  
-
-At first I'll provide Part 1 and once I've cleaned up the Part 2 material I'll publish
-it also.
+This was designed to be paired with mentoring, not necessary as a self-learning machanism.  
 
 When I mentor people, I typically follow a schedule that looks resembles the following (for Part 1):
 
@@ -144,28 +118,10 @@ Week 4
         * Graphs II
 ```
 
-Along with the course material I also use various related interview style questions
-that directly relate the the topic at hand.  Soon I will add the selection
-to this repo that I used during the program along with my solutions.  There are a lot
-details tested for in here, and the premise was that when someone is able to answer 
-them then during an interview they will not spend too much time trying to remember 
-how things work, and can instead focus on the question being asked.
-
-<br />
-<br />
-
 The progression assumes that comfort with arrays will lead to comfort with Dynamic
 Arrays because of similar coding dynamics, and the comfort with dynamic arrays and Linked
 Lists will lead to comfort with HashTables because either can be used as the storage
 mechanism, and so on.  
-
-We often see an example implementation and begin to think that it's the way a Stack, 
-Queue, or something should be.  We rarely realize we can implement it anyway we wish
-as long as the requirements of the data structure or algorithm are met.  In that sense,
-interview questions are very similar to the technical requirements we might receive on 
-the job.  And so I continue to structure this material in such a way that forces everyone
-to both treat the prompts like requirements, but also requires everyone to combine
-the various data structures and algorithms to achieve the intended result.
 
 My audience was mostly Javascript programmers but I also mentored programmers with a Java,
 Python, and C# background and everything worked fine.  The only difference is the automated
